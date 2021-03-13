@@ -1123,7 +1123,7 @@ button {
 	}
 
 	/* This sets the image the overlay on the background */
-	/*
+	
 	#bg:before {
 		-moz-transition: background-color 2.5s ease-in-out;
 		-webkit-transition: background-color 2.5s ease-in-out;
@@ -1138,9 +1138,9 @@ button {
 		background-position: center, center;
 		background-repeat: no-repeat, repeat;
 		/* This sets the order of rendering. This will sit on top of all elements with z-index < 2 */
-	/*	z-index: 2;
+		z-index: 2;
 	}
-	*/
+	
 	
 	/* This sets the content of the actual background */
 	#bg:after {
@@ -1161,7 +1161,7 @@ button {
 		z-index: 1;
 	}
 
-/*	body.is-article-visible #bg:after {
+	body.is-article-visible #bg:after {
 		-moz-transform: scale(1.0825);
 		-webkit-transform: scale(1.0825);
 		-ms-transform: scale(1.0825);
@@ -1170,7 +1170,7 @@ button {
 		-webkit-filter: blur(0.2rem);
 		-ms-filter: blur(0.2rem);
 		filter: blur(0.2rem);
-	} */
+	} 
 
 	body.is-preload #bg:before {
 		background-color: #000000;
