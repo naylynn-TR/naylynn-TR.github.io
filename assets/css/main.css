@@ -631,6 +631,9 @@ input[type="radio"] + label:before {
 	display: inline-block;
 	position: relative;
 }
+	img.rounded-corners {
+  		border-radius: 50%;
+	}
 
 	.image:before {
 		pointer-events: none;
